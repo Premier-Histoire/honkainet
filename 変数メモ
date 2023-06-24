@@ -1,0 +1,27 @@
+      //HP
+      attributes_hp: null,
+      additions_hp: null,
+      //攻撃力
+      attributes_atk: null,
+      additions_atk: null,
+      //防御力
+      attributes_def: null,
+      additions_def: null,
+      //速度
+      attributes_spd: null,
+      additions_spd: null,
+      //会心率
+      attributes_crit_rate: null,
+      additions_crit_rate: null,
+      //会心ダメージ
+      attributes_crit_dmg: null,
+      additions_crit_dmg: null,
+      //撃破特攻
+      attributes_break_dmg: null,
+      additions_break_dmg: null,
+      //効果命中
+      attributes_effect_hit: null,
+      additions_effect_hit: null,
+      //属性与ダメージ
+      attributes_element_dmg: null,
+      additions_element_dmg: null,

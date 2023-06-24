@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(./font.ttf);
+}
+
+body {
+    font-family: 'MyFont';
+    color: #ffffff;
+}
+
+.vh100 {
+    position: relative;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fontblack {
+    color: #000000;
+}
+
+.search-form-001 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #2589d0;
+    border-radius: 3px;
+}
+
+.search-form-001 input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.search-form-001 input::placeholder {
+    color: #000000;
+}
+
+.search-form-001 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 45px;
+    border: none;
+    background-color: #2589d0;
+    cursor: pointer;
+}
+
+.search-form-001 a::after {
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.background {
+    /* Background styles */
+    background: url(./BG-5e8447b4.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 1250px;
+    height: 645px;
+}
+
+.profile {
+    /* Profile styles */
+    width: 100%;
+    height: 100%;
+}
+
+.Character img {
+    /* Character styles */
+    vertical-align: middle;
+    width: 407px;
+    height: 407px;
+}
+
+.character_name {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 32px;
+}
+
+.character_level {
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    font-size: 16px;
+}
+
+.light_cone {
+    /* Light cone styles */
+    width: 340px;
+    height: 50%;
+}
+
+.skill {
+    /* Skill styles */
+    width: 340px;
+    height: 50%;
+}
+
+.head,
+.body,
+.hand,
+.leg,
+.orb,
+.rope {
+    width: 200px;
+    height: calc(100% - 10px);
+}
+
+.status_space {
+    margin-top: 20px;
+    /* 上側の透明な余白を指定 */
+    margin-bottom: 30px;
+    /* 下側の透明な余白を指定 */
+    margin-left: 40px;
+    /* 左側の透明な余白を指定 */
+    margin-right: 50px;
+    /* 右側の透明な余白を指定 */
+}
+
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.light_cone {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: calc(100% - 10px);
+    height: 196px;
+}
+
+.skill {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: calc(100% - 10px);
+    height: 196px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 5px);
+    margin-bottom: 20px;
+}
+
+.status-div {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: calc(100% - 10px);
+    /* 左右の余白を考慮した幅 */
+    height: calc(100% - 10px);
+    /* 上下の余白を考慮した高さ */
+    box-sizing: border-box;
+}
+
+.short-div {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: calc(100% - 10px);
+    /* 左右の余白を考慮した幅 */
+    height: calc(100% - 5px);
+    /* 上下の余白を考慮した高さ */
+    box-sizing: border-box;
+}
+
+.equipment-div {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: calc(100% - 10px);
+    /* 左右の余白を考慮した幅 */
+    height: 220px;
+    /* 上下の余白を考慮した高さ */
+    box-sizing: border-box;
+}
+
+.extra-div {
+    position: relative;
+    top: 56px;
+    width: 100%;
+    height: 30px;
+    /* 高さ30px */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 任意の背景色 */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.equipment-div img {
+    width: 130px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    opacity: 0.4;
+}
+
+.MainOP {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 5px;
+    font-size: 17px;
+}
+
+.MainOP img {
+    vertical-align: middle;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}
+
+.MainOP .display {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.MainOP .level {
+    position: absolute;
+    right: 0;
+    margin-top: 63px;
+    font-size: 15px;
+    background-color: black;
+    text-align: center;
+    width: 38px;
+    border-radius: 3px;
+}
+
+.SubOP {
+    position: absolute;
+    margin-left: 2px;
+    width: calc(100% - 10px);
+    top: 82px;
+    font-size: 14px;
+}
+
+.SubOP img {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+}
+
+.Subrem {
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}

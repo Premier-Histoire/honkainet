@@ -1,0 +1,1946 @@
+{
+    "player": {
+        "uid": "800689637",
+        "nickname": "Archibolt",
+        "level": 21,
+        "world_level": 1,
+        "friend_count": 4,
+        "avatar": {
+            "id": "201002",
+            "name": "丹恒",
+            "icon": "icon/avatar/1002.png"
+        },
+        "signature": "",
+        "is_display": true,
+        "space_info": {
+            "challenge_data": {
+                "maze_group_id": 0,
+                "maze_group_index": 0,
+                "pre_maze_group_index": 0
+            },
+            "pass_area_progress": 1,
+            "light_cone_count": 19,
+            "avatar_count": 12,
+            "achievement_count": 44
+        }
+    },
+    "characters": [
+        {
+            "id": "1101",
+            "name": "ブローニャ",
+            "rarity": 5,
+            "rank": 0,
+            "level": 30,
+            "promotion": 2,
+            "icon": "icon/character/1101.png",
+            "preview": "image/character_preview/1101.png",
+            "portrait": "image/character_portrait/1101.png",
+            "rank_icons": [
+                "icon/skill/1101_rank1.png",
+                "icon/skill/1101_rank2.png",
+                "icon/skill/1101_skill.png",
+                "icon/skill/1101_rank4.png",
+                "icon/skill/1101_ultimate.png",
+                "icon/skill/1101_rank6.png"
+            ],
+            "path": {
+                "id": "Shaman",
+                "name": "調和",
+                "icon": "icon/path/Harmony.png"
+            },
+            "element": {
+                "id": "Wind",
+                "name": "風",
+                "color": "#00FF9C",
+                "icon": "icon/element/Wind.png"
+            },
+            "skills": [
+                {
+                    "id": "110101",
+                    "name": "疾風の弾丸",
+                    "level": 1,
+                    "max_level": 9,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "Normal",
+                    "type_text": "通常攻撃",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に少量の風属性ダメージを与える。",
+                    "desc": "指定した敵単体にブローニャの攻撃力50%分の風属性ダメージを与える。",
+                    "icon": "icon/skill/1101_basic_atk.png"
+                },
+                {
+                    "id": "110102",
+                    "name": "作戦再展開",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": null,
+                    "type": "BPSkill",
+                    "type_text": "戦闘スキル",
+                    "effect": "Support",
+                    "effect_text": "サポート",
+                    "simple_desc": "味方単体のデバフを1つ解除し、与ダメージをアップさせ、即座に行動させる。",
+                    "desc": "指定した味方単体のデバフを1つ解除し、その味方を直ちに行動させ、与ダメージ+36%、1ターン継続。\n自身に対してこのスキルを発動した時、即時行動の効果は発動しない。",
+                    "icon": "icon/skill/1101_skill.png"
+                },
+                {
+                    "id": "110103",
+                    "name": "ベロブルグ行進曲",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": null,
+                    "type": "Ultra",
+                    "type_text": "必殺技",
+                    "effect": "Support",
+                    "effect_text": "サポート",
+                    "simple_desc": "味方全体の攻撃力、会心ダメージアップ。",
+                    "desc": "味方全体の攻撃力+35%、会心ダメージがブローニャの会心ダメージの12.4%+12.8%アップする、2ターン継続。",
+                    "icon": "icon/skill/1101_ultimate.png"
+                },
+                {
+                    "id": "110104",
+                    "name": "先人一歩",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "Talent",
+                    "type_text": "天賦",
+                    "effect": "Enhance",
+                    "effect_text": "強化",
+                    "simple_desc": "",
+                    "desc": "通常攻撃を行った後、ブローニャの行動順が16%早まる。",
+                    "icon": "icon/skill/1101_talent.png"
+                },
+                {
+                    "id": "110106",
+                    "name": "110106",
+                    "level": 0,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "MazeNormal",
+                    "type_text": "",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "",
+                    "desc": "",
+                    "icon": "icon/skill/1101_basic_atk.png"
+                },
+                {
+                    "id": "110107",
+                    "name": "旗の下で",
+                    "level": 1,
+                    "max_level": 1,
+                    "element": null,
+                    "type": "Maze",
+                    "type_text": "秘技",
+                    "effect": "Support",
+                    "effect_text": "サポート",
+                    "simple_desc": "",
+                    "desc": "秘技を使用した後、次の戦闘開始時、味方全体の攻撃力+15%、2ターン継続。",
+                    "icon": "icon/skill/1101_technique.png"
+                }
+            ],
+            "skill_trees": [
+                {
+                    "id": "1101001",
+                    "level": 1,
+                    "icon": "icon/skill/1101_basic_atk.png"
+                },
+                {
+                    "id": "1101002",
+                    "level": 2,
+                    "icon": "icon/skill/1101_skill.png"
+                },
+                {
+                    "id": "1101003",
+                    "level": 2,
+                    "icon": "icon/skill/1101_ultimate.png"
+                },
+                {
+                    "id": "1101004",
+                    "level": 2,
+                    "icon": "icon/skill/1101_talent.png"
+                },
+                {
+                    "id": "1101007",
+                    "level": 1,
+                    "icon": "icon/skill/1101_technique.png"
+                },
+                {
+                    "id": "1101201",
+                    "level": 1,
+                    "icon": "icon/property/IconWindAddedRatio.png"
+                }
+            ],
+            "light_cone": {
+                "id": "20005",
+                "name": "斉頌",
+                "rarity": 3,
+                "rank": 1,
+                "level": 20,
+                "promotion": 0,
+                "icon": "icon/light_cone/20005.png",
+                "preview": "image/light_cone_preview/20005.png",
+                "portrait": "image/light_cone_portrait/20005.png",
+                "path": {
+                    "id": "Shaman",
+                    "name": "調和",
+                    "icon": "icon/path/Harmony.png"
+                },
+                "attributes": [
+                    {
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 147.84,
+                        "display": "147",
+                        "percent": false
+                    },
+                    {
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 55.440000000000005,
+                        "display": "55",
+                        "percent": false
+                    },
+                    {
+                        "field": "def",
+                        "name": "防御力",
+                        "icon": "icon/property/IconDefence.png",
+                        "value": 46.2,
+                        "display": "46",
+                        "percent": false
+                    }
+                ],
+                "properties": []
+            },
+            "relics": [
+                {
+                    "id": "31021",
+                    "name": "ガンマンの草の穂フェルト帽",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_0.png",
+                    "main_affix": {
+                        "type": "HPDelta",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 45.158399999840185,
+                        "display": "45",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31022",
+                    "name": "ガンマンの荒い革手袋",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_1.png",
+                    "main_affix": {
+                        "type": "AttackDelta",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 22.579200000036508,
+                        "display": "22",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31023",
+                    "name": "ガンマンの風狩りポンチョ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_2.png",
+                    "main_affix": {
+                        "type": "CriticalDamageBase",
+                        "field": "crit_dmg",
+                        "name": "会心ダメージ",
+                        "icon": "icon/property/IconCriticalDamage.png",
+                        "value": 0.041472000768408,
+                        "display": "4.1%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31024",
+                    "name": "ガンマンのリベットブーツ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_3.png",
+                    "main_affix": {
+                        "type": "HPAddedRatio",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 0.027648000279441,
+                        "display": "2.7%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                }
+            ],
+            "relic_sets": [
+                {
+                    "id": "102",
+                    "name": "草の穂ガンマン",
+                    "icon": "icon/relic/102.png",
+                    "num": 2,
+                    "desc": "攻撃力+12%。",
+                    "properties": [
+                        {
+                            "type": "AttackAddedRatio",
+                            "field": "atk",
+                            "name": "攻撃力",
+                            "icon": "icon/property/IconAttack.png",
+                            "value": 0.12,
+                            "display": "12.0%",
+                            "percent": true
+                        }
+                    ]
+                },
+                {
+                    "id": "102",
+                    "name": "草の穂ガンマン",
+                    "icon": "icon/relic/102.png",
+                    "num": 4,
+                    "desc": "攻撃力+12%。",
+                    "properties": [
+                        {
+                            "type": "SpeedAddedRatio",
+                            "field": "spd",
+                            "name": "速度",
+                            "icon": "icon/property/IconSpeed.png",
+                            "value": 0.06,
+                            "display": "6.0%",
+                            "percent": true
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 696.96,
+                    "display": "696",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 312.84,
+                    "display": "312",
+                    "percent": false
+                },
+                {
+                    "field": "def",
+                    "name": "防御力",
+                    "icon": "icon/property/IconDefence.png",
+                    "value": 282.15,
+                    "display": "282",
+                    "percent": false
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 99.0,
+                    "display": "99",
+                    "percent": false
+                },
+                {
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.05,
+                    "display": "5.0%",
+                    "percent": true
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.5,
+                    "display": "50.0%",
+                    "percent": true
+                }
+            ],
+            "additions": [
+                {
+                    "field": "wind_dmg",
+                    "name": "風属性与ダメージ",
+                    "icon": "icon/property/IconWindAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 64.42795027459938,
+                    "display": "64",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 60.120000000036505,
+                    "display": "60",
+                    "percent": false
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.041472000768408,
+                    "display": "4.1%",
+                    "percent": true
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 5.9399999999999995,
+                    "display": "5",
+                    "percent": false
+                }
+            ],
+            "properties": [
+                {
+                    "type": "WindAddedRatio",
+                    "field": "wind_dmg",
+                    "name": "風属性与ダメージ",
+                    "icon": "icon/property/IconWindAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "type": "HPDelta",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 45.158399999840185,
+                    "display": "45",
+                    "percent": false
+                },
+                {
+                    "type": "AttackDelta",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 22.579200000036508,
+                    "display": "22",
+                    "percent": false
+                },
+                {
+                    "type": "CriticalDamageBase",
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.041472000768408,
+                    "display": "4.1%",
+                    "percent": true
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 0.027648000279441,
+                    "display": "2.7%",
+                    "percent": true
+                },
+                {
+                    "type": "AttackAddedRatio",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.12,
+                    "display": "12.0%",
+                    "percent": true
+                },
+                {
+                    "type": "SpeedAddedRatio",
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 0.06,
+                    "display": "6.0%",
+                    "percent": true
+                }
+            ]
+        },
+        {
+            "id": "1002",
+            "name": "丹恒",
+            "rarity": 4,
+            "rank": 2,
+            "level": 36,
+            "promotion": 2,
+            "icon": "icon/character/1002.png",
+            "preview": "image/character_preview/1002.png",
+            "portrait": "image/character_portrait/1002.png",
+            "rank_icons": [
+                "icon/skill/1002_rank1.png",
+                "icon/skill/1002_rank2.png",
+                "icon/skill/1002_skill.png",
+                "icon/skill/1002_rank4.png",
+                "icon/skill/1002_ultimate.png",
+                "icon/skill/1002_rank6.png"
+            ],
+            "path": {
+                "id": "Rogue",
+                "name": "巡狩",
+                "icon": "icon/path/Hunt.png"
+            },
+            "element": {
+                "id": "Wind",
+                "name": "風",
+                "color": "#00FF9C",
+                "icon": "icon/element/Wind.png"
+            },
+            "skills": [
+                {
+                    "id": "100201",
+                    "name": "雲騎槍術・朔風",
+                    "level": 2,
+                    "max_level": 9,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "Normal",
+                    "type_text": "通常攻撃",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に少量の風属性ダメージを与える。",
+                    "desc": "指定した敵単体に丹恒の攻撃力60%分の風属性ダメージを与える。",
+                    "icon": "icon/skill/1002_basic_atk.png"
+                },
+                {
+                    "id": "100202",
+                    "name": "雲騎槍術・疾雨",
+                    "level": 3,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "BPSkill",
+                    "type_text": "戦闘スキル",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に風属性ダメージを与え、会心時に高確率で減速状態を付与。",
+                    "desc": "指定した敵単体に丹恒の攻撃力156%分の風属性ダメージを与える。\n戦闘スキルで会心が発生した時、100%の基礎確率で攻撃を受けた敵の速度-12%、2ターン継続。",
+                    "icon": "icon/skill/1002_skill.png"
+                },
+                {
+                    "id": "100203",
+                    "name": "洞天幻化、長夢一覚",
+                    "level": 3,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "Ultra",
+                    "type_text": "必殺技",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に大量の風属性ダメージを与える、減速状態の敵に対してダメージ倍率アップ。",
+                    "desc": "指定した敵単体に丹恒の攻撃力272%分の風属性ダメージを与える。攻撃を受けた敵が減速状態の場合、必殺技のダメージ倍率+81%。",
+                    "icon": "icon/skill/1002_ultimate.png"
+                },
+                {
+                    "id": "100204",
+                    "name": "寸長寸強",
+                    "level": 3,
+                    "max_level": 15,
+                    "element": null,
+                    "type": "Talent",
+                    "type_text": "天賦",
+                    "effect": "Enhance",
+                    "effect_text": "強化",
+                    "simple_desc": "味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通アップ。この効果は2ターン後に再度触発できる。",
+                    "desc": "丹恒が味方スキルのターゲットになった時、次の攻撃の風属性耐性貫通+21%。この効果は2ターン後に再度触発できる。",
+                    "icon": "icon/skill/1002_talent.png"
+                },
+                {
+                    "id": "100206",
+                    "name": "100206",
+                    "level": 0,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Wind",
+                        "name": "風",
+                        "color": "#00FF9C",
+                        "icon": "icon/element/Wind.png"
+                    },
+                    "type": "MazeNormal",
+                    "type_text": "",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "",
+                    "desc": "",
+                    "icon": "icon/skill/1002_basic_atk.png"
+                },
+                {
+                    "id": "100207",
+                    "name": "破敵の矛先",
+                    "level": 1,
+                    "max_level": 1,
+                    "element": null,
+                    "type": "Maze",
+                    "type_text": "秘技",
+                    "effect": "Enhance",
+                    "effect_text": "強化",
+                    "simple_desc": "秘技を使用、次の戦闘に入った後に攻撃力アップ。",
+                    "desc": "秘技を使用した後、次の戦闘開始時、丹恒の攻撃力+40%、3ターン継続。",
+                    "icon": "icon/skill/1002_technique.png"
+                }
+            ],
+            "skill_trees": [
+                {
+                    "id": "1002001",
+                    "level": 2,
+                    "icon": "icon/skill/1002_basic_atk.png"
+                },
+                {
+                    "id": "1002002",
+                    "level": 3,
+                    "icon": "icon/skill/1002_skill.png"
+                },
+                {
+                    "id": "1002003",
+                    "level": 3,
+                    "icon": "icon/skill/1002_ultimate.png"
+                },
+                {
+                    "id": "1002004",
+                    "level": 3,
+                    "icon": "icon/skill/1002_talent.png"
+                },
+                {
+                    "id": "1002007",
+                    "level": 1,
+                    "icon": "icon/skill/1002_technique.png"
+                },
+                {
+                    "id": "1002201",
+                    "level": 1,
+                    "icon": "icon/property/IconWindAddedRatio.png"
+                }
+            ],
+            "light_cone": {
+                "id": "21003",
+                "name": "沈黙のみ",
+                "rarity": 4,
+                "rank": 3,
+                "level": 40,
+                "promotion": 2,
+                "icon": "icon/light_cone/21003.png",
+                "preview": "image/light_cone_preview/21003.png",
+                "portrait": "image/light_cone_portrait/21003.png",
+                "path": {
+                    "id": "Rogue",
+                    "name": "巡狩",
+                    "icon": "icon/path/Hunt.png"
+                },
+                "attributes": [
+                    {
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 416.88,
+                        "display": "416",
+                        "percent": false
+                    },
+                    {
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 208.44,
+                        "display": "208",
+                        "percent": false
+                    },
+                    {
+                        "field": "def",
+                        "name": "防御力",
+                        "icon": "icon/property/IconDefence.png",
+                        "value": 144.75,
+                        "display": "144",
+                        "percent": false
+                    }
+                ],
+                "properties": [
+                    {
+                        "type": "AttackAddedRatio",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 0.24,
+                        "display": "24.0%",
+                        "percent": true
+                    }
+                ]
+            },
+            "relics": [
+                {
+                    "id": "31021",
+                    "name": "ガンマンの草の穂フェルト帽",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_0.png",
+                    "main_affix": {
+                        "type": "HPDelta",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 45.158399999840185,
+                        "display": "45",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31112",
+                    "name": "怪盗の紋様手袋",
+                    "set_id": "111",
+                    "set_name": "流星の跡を追う怪盗",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/111_1.png",
+                    "main_affix": {
+                        "type": "AttackDelta",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 22.579200000036508,
+                        "display": "22",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31023",
+                    "name": "ガンマンの風狩りポンチョ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_2.png",
+                    "main_affix": {
+                        "type": "HPAddedRatio",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 0.027648000279441,
+                        "display": "2.7%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31114",
+                    "name": "怪盗の流星ブーツ",
+                    "set_id": "111",
+                    "set_name": "流星の跡を追う怪盗",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/111_3.png",
+                    "main_affix": {
+                        "type": "HPAddedRatio",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 0.027648000279441,
+                        "display": "2.7%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                }
+            ],
+            "relic_sets": [
+                {
+                    "id": "102",
+                    "name": "草の穂ガンマン",
+                    "icon": "icon/relic/102.png",
+                    "num": 2,
+                    "desc": "攻撃力+12%。",
+                    "properties": [
+                        {
+                            "type": "AttackAddedRatio",
+                            "field": "atk",
+                            "name": "攻撃力",
+                            "icon": "icon/property/IconAttack.png",
+                            "value": 0.12,
+                            "display": "12.0%",
+                            "percent": true
+                        }
+                    ]
+                },
+                {
+                    "id": "111",
+                    "name": "流星の跡を追う怪盗",
+                    "icon": "icon/relic/111.png",
+                    "num": 2,
+                    "desc": "撃破特効+16%。",
+                    "properties": [
+                        {
+                            "type": "BreakDamageAddedRatioBase",
+                            "field": "break_dmg",
+                            "name": "撃破特効",
+                            "icon": "icon/property/IconBreakUp.png",
+                            "value": 0.16,
+                            "display": "16.0%",
+                            "percent": true
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 842.88,
+                    "display": "842",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 472.56,
+                    "display": "472",
+                    "percent": false
+                },
+                {
+                    "field": "def",
+                    "name": "防御力",
+                    "icon": "icon/property/IconDefence.png",
+                    "value": 336.45,
+                    "display": "336",
+                    "percent": false
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 110.0,
+                    "display": "110",
+                    "percent": false
+                },
+                {
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.05,
+                    "display": "5.0%",
+                    "percent": true
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.5,
+                    "display": "50.0%",
+                    "percent": true
+                }
+            ],
+            "additions": [
+                {
+                    "field": "wind_dmg",
+                    "name": "風属性与ダメージ",
+                    "icon": "icon/property/IconWindAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 192.7008000000365,
+                    "display": "192",
+                    "percent": false
+                },
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 91.76629295091064,
+                    "display": "91",
+                    "percent": false
+                },
+                {
+                    "field": "break_dmg",
+                    "name": "撃破特効",
+                    "icon": "icon/property/IconBreakUp.png",
+                    "value": 0.16,
+                    "display": "16.0%",
+                    "percent": true
+                }
+            ],
+            "properties": [
+                {
+                    "type": "WindAddedRatio",
+                    "field": "wind_dmg",
+                    "name": "風属性与ダメージ",
+                    "icon": "icon/property/IconWindAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "type": "AttackAddedRatio",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.36,
+                    "display": "36.0%",
+                    "percent": true
+                },
+                {
+                    "type": "HPDelta",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 45.158399999840185,
+                    "display": "45",
+                    "percent": false
+                },
+                {
+                    "type": "AttackDelta",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 22.579200000036508,
+                    "display": "22",
+                    "percent": false
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 0.055296000558882,
+                    "display": "5.5%",
+                    "percent": true
+                },
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "field": "break_dmg",
+                    "name": "撃破特効",
+                    "icon": "icon/property/IconBreakUp.png",
+                    "value": 0.16,
+                    "display": "16.0%",
+                    "percent": true
+                }
+            ]
+        },
+        {
+            "id": "1009",
+            "name": "アスター",
+            "rarity": 4,
+            "rank": 1,
+            "level": 20,
+            "promotion": 1,
+            "icon": "icon/character/1009.png",
+            "preview": "image/character_preview/1009.png",
+            "portrait": "image/character_portrait/1009.png",
+            "rank_icons": [
+                "icon/skill/1009_rank1.png",
+                "icon/skill/1009_rank2.png",
+                "icon/skill/1009_skill.png",
+                "icon/skill/1009_rank4.png",
+                "icon/skill/1009_ultimate.png",
+                "icon/skill/1009_rank6.png"
+            ],
+            "path": {
+                "id": "Shaman",
+                "name": "調和",
+                "icon": "icon/path/Harmony.png"
+            },
+            "element": {
+                "id": "Fire",
+                "name": "炎",
+                "color": "#F84F36",
+                "icon": "icon/element/Fire.png"
+            },
+            "skills": [
+                {
+                    "id": "100901",
+                    "name": "スペクトル光線",
+                    "level": 1,
+                    "max_level": 9,
+                    "element": {
+                        "id": "Fire",
+                        "name": "炎",
+                        "color": "#F84F36",
+                        "icon": "icon/element/Fire.png"
+                    },
+                    "type": "Normal",
+                    "type_text": "通常攻撃",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に少量の炎属性ダメージを与える。",
+                    "desc": "指定した敵単体にアスターの攻撃力50%分の炎属性ダメージを与える。",
+                    "icon": "icon/skill/1009_basic_atk.png"
+                },
+                {
+                    "id": "100902",
+                    "name": "スターフォール",
+                    "level": 1,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Fire",
+                        "name": "炎",
+                        "color": "#F84F36",
+                        "icon": "icon/element/Fire.png"
+                    },
+                    "type": "BPSkill",
+                    "type_text": "戦闘スキル",
+                    "effect": "Bounce",
+                    "effect_text": "バウンド",
+                    "simple_desc": "敵単体に少量の炎属性ダメージを与える、5回バウンドする。",
+                    "desc": "指定した敵単体にアスターの攻撃力25%分の炎属性ダメージを与え、さらに4ヒットする。1ヒットごとに、ランダムな敵単体にアスターの攻撃力25%分の炎属性ダメージを与える。",
+                    "icon": "icon/skill/1009_skill.png"
+                },
+                {
+                    "id": "100903",
+                    "name": "星空祝言",
+                    "level": 1,
+                    "max_level": 15,
+                    "element": null,
+                    "type": "Ultra",
+                    "type_text": "必殺技",
+                    "effect": "Support",
+                    "effect_text": "サポート",
+                    "simple_desc": "味方全体の速度アップ。",
+                    "desc": "味方全体の速度+36、2ターン継続。",
+                    "icon": "icon/skill/1009_ultimate.png"
+                },
+                {
+                    "id": "100904",
+                    "name": "天象学",
+                    "level": 1,
+                    "max_level": 15,
+                    "element": null,
+                    "type": "Talent",
+                    "type_text": "天賦",
+                    "effect": "Support",
+                    "effect_text": "サポート",
+                    "simple_desc": "異なる敵に命中するごとに蓄エネを1層獲得、最大で5層。蓄エネの層数に応じて味方全体の攻撃力アップ。自身のターン開始時に蓄エネ層数ダウン。",
+                    "desc": "異なる敵に攻撃が命中するごとに蓄エネを1層獲得する。攻撃を受けた敵の弱点が炎属性の場合、さらに蓄エネを1層獲得する。\nアスターが持つ蓄エネ1層につき、味方全体の攻撃力+7.0%、最大で5回累積できる。\n自身の2ターン目から、アスターのターンが回ってくるたびに蓄エネ層数-3。",
+                    "icon": "icon/skill/1009_talent.png"
+                },
+                {
+                    "id": "100906",
+                    "name": "100906",
+                    "level": 0,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Fire",
+                        "name": "炎",
+                        "color": "#F84F36",
+                        "icon": "icon/element/Fire.png"
+                    },
+                    "type": "MazeNormal",
+                    "type_text": "",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "",
+                    "desc": "",
+                    "icon": "icon/skill/1009_basic_atk.png"
+                },
+                {
+                    "id": "100907",
+                    "name": "着想の一閃",
+                    "level": 1,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Fire",
+                        "name": "炎",
+                        "color": "#F84F36",
+                        "icon": "icon/element/Fire.png"
+                    },
+                    "type": "Maze",
+                    "type_text": "秘技",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "敵を攻撃。戦闘に入った後、敵全体に少量のダメージを与える。",
+                    "desc": "敵を攻撃。戦闘に入った後、敵全体にアスターの攻撃力50%分の炎属性ダメージを与える。",
+                    "icon": "icon/skill/1009_technique.png"
+                }
+            ],
+            "skill_trees": [
+                {
+                    "id": "1009001",
+                    "level": 1,
+                    "icon": "icon/skill/1009_basic_atk.png"
+                },
+                {
+                    "id": "1009002",
+                    "level": 1,
+                    "icon": "icon/skill/1009_skill.png"
+                },
+                {
+                    "id": "1009003",
+                    "level": 1,
+                    "icon": "icon/skill/1009_ultimate.png"
+                },
+                {
+                    "id": "1009004",
+                    "level": 1,
+                    "icon": "icon/skill/1009_talent.png"
+                },
+                {
+                    "id": "1009007",
+                    "level": 1,
+                    "icon": "icon/skill/1009_technique.png"
+                },
+                {
+                    "id": "1009201",
+                    "level": 1,
+                    "icon": "icon/property/IconFireAddedRatio.png"
+                }
+            ],
+            "light_cone": {
+                "id": "20005",
+                "name": "斉頌",
+                "rarity": 3,
+                "rank": 1,
+                "level": 20,
+                "promotion": 0,
+                "icon": "icon/light_cone/20005.png",
+                "preview": "image/light_cone_preview/20005.png",
+                "portrait": "image/light_cone_portrait/20005.png",
+                "path": {
+                    "id": "Shaman",
+                    "name": "調和",
+                    "icon": "icon/path/Harmony.png"
+                },
+                "attributes": [
+                    {
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 147.84,
+                        "display": "147",
+                        "percent": false
+                    },
+                    {
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 55.440000000000005,
+                        "display": "55",
+                        "percent": false
+                    },
+                    {
+                        "field": "def",
+                        "name": "防御力",
+                        "icon": "icon/property/IconDefence.png",
+                        "value": 46.2,
+                        "display": "46",
+                        "percent": false
+                    }
+                ],
+                "properties": []
+            },
+            "relics": [
+                {
+                    "id": "31021",
+                    "name": "ガンマンの草の穂フェルト帽",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_0.png",
+                    "main_affix": {
+                        "type": "HPDelta",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 45.158399999840185,
+                        "display": "45",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31112",
+                    "name": "怪盗の紋様手袋",
+                    "set_id": "111",
+                    "set_name": "流星の跡を追う怪盗",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/111_1.png",
+                    "main_affix": {
+                        "type": "AttackDelta",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 22.579200000036508,
+                        "display": "22",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31113",
+                    "name": "怪盗のワイヤーかぎ爪",
+                    "set_id": "111",
+                    "set_name": "流星の跡を追う怪盗",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/111_2.png",
+                    "main_affix": {
+                        "type": "AttackAddedRatio",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 0.027648000279441,
+                        "display": "2.7%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31024",
+                    "name": "ガンマンのリベットブーツ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_3.png",
+                    "main_affix": {
+                        "type": "HPAddedRatio",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 0.027648000279441,
+                        "display": "2.7%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                }
+            ],
+            "relic_sets": [
+                {
+                    "id": "102",
+                    "name": "草の穂ガンマン",
+                    "icon": "icon/relic/102.png",
+                    "num": 2,
+                    "desc": "攻撃力+12%。",
+                    "properties": [
+                        {
+                            "type": "AttackAddedRatio",
+                            "field": "atk",
+                            "name": "攻撃力",
+                            "icon": "icon/property/IconAttack.png",
+                            "value": 0.12,
+                            "display": "12.0%",
+                            "percent": true
+                        }
+                    ]
+                },
+                {
+                    "id": "111",
+                    "name": "流星の跡を追う怪盗",
+                    "icon": "icon/relic/111.png",
+                    "num": 2,
+                    "desc": "撃破特効+16%。",
+                    "properties": [
+                        {
+                            "type": "BreakDamageAddedRatioBase",
+                            "field": "break_dmg",
+                            "name": "撃破特効",
+                            "icon": "icon/property/IconBreakUp.png",
+                            "value": 0.16,
+                            "display": "16.0%",
+                            "percent": true
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 474.96000000000004,
+                    "display": "474",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 219.0,
+                    "display": "219",
+                    "percent": false
+                },
+                {
+                    "field": "def",
+                    "name": "防御力",
+                    "icon": "icon/property/IconDefence.png",
+                    "value": 194.25,
+                    "display": "194",
+                    "percent": false
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 106.0,
+                    "display": "106",
+                    "percent": false
+                },
+                {
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.05,
+                    "display": "5.0%",
+                    "percent": true
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.5,
+                    "display": "50.0%",
+                    "percent": true
+                }
+            ],
+            "additions": [
+                {
+                    "field": "fire_dmg",
+                    "name": "炎属性与ダメージ",
+                    "icon": "icon/property/IconFireAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 58.29009421256348,
+                    "display": "58",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 54.914112061234086,
+                    "display": "54",
+                    "percent": false
+                },
+                {
+                    "field": "break_dmg",
+                    "name": "撃破特効",
+                    "icon": "icon/property/IconBreakUp.png",
+                    "value": 0.16,
+                    "display": "16.0%",
+                    "percent": true
+                }
+            ],
+            "properties": [
+                {
+                    "type": "FireAddedRatio",
+                    "field": "fire_dmg",
+                    "name": "炎属性与ダメージ",
+                    "icon": "icon/property/IconFireAddedRatio.png",
+                    "value": 0.032,
+                    "display": "3.2%",
+                    "percent": true
+                },
+                {
+                    "type": "HPDelta",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 45.158399999840185,
+                    "display": "45",
+                    "percent": false
+                },
+                {
+                    "type": "AttackDelta",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 22.579200000036508,
+                    "display": "22",
+                    "percent": false
+                },
+                {
+                    "type": "AttackAddedRatio",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.147648000279441,
+                    "display": "14.7%",
+                    "percent": true
+                },
+                {
+                    "type": "HPAddedRatio",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 0.027648000279441,
+                    "display": "2.7%",
+                    "percent": true
+                },
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "field": "break_dmg",
+                    "name": "撃破特効",
+                    "icon": "icon/property/IconBreakUp.png",
+                    "value": 0.16,
+                    "display": "16.0%",
+                    "percent": true
+                }
+            ]
+        },
+        {
+            "id": "1103",
+            "name": "セーバル",
+            "rarity": 4,
+            "rank": 2,
+            "level": 30,
+            "promotion": 1,
+            "icon": "icon/character/1103.png",
+            "preview": "image/character_preview/1103.png",
+            "portrait": "image/character_portrait/1103.png",
+            "rank_icons": [
+                "icon/skill/1103_rank1.png",
+                "icon/skill/1103_rank2.png",
+                "icon/skill/1103_skill.png",
+                "icon/skill/1103_rank4.png",
+                "icon/skill/1103_ultimate.png",
+                "icon/skill/1103_rank6.png"
+            ],
+            "path": {
+                "id": "Mage",
+                "name": "知恵",
+                "icon": "icon/path/Erudition.png"
+            },
+            "element": {
+                "id": "Thunder",
+                "name": "雷",
+                "color": "#8872F1",
+                "icon": "icon/element/Lightning.png"
+            },
+            "skills": [
+                {
+                    "id": "110301",
+                    "name": "雷鳴音階",
+                    "level": 1,
+                    "max_level": 9,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "Normal",
+                    "type_text": "通常攻撃",
+                    "effect": "SingleAttack",
+                    "effect_text": "単体攻撃",
+                    "simple_desc": "敵単体に少量の雷属性ダメージを与える。",
+                    "desc": "指定した敵単体にセーバルの攻撃力50%分の雷属性ダメージを与える。",
+                    "icon": "icon/skill/1103_basic_atk.png"
+                },
+                {
+                    "id": "110302",
+                    "name": "スパーク",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "BPSkill",
+                    "type_text": "戦闘スキル",
+                    "effect": "Blast",
+                    "effect_text": "拡散攻撃",
+                    "simple_desc": "敵単体と隣接する敵に少量の雷属性ダメージを与え、高確率で感電状態を付与する。",
+                    "desc": "指定した敵単体にセーバルの攻撃力77%分の雷属性ダメージを与え、隣接する敵にセーバルの攻撃力33%分の雷属性ダメージを与える。さらに80%の基礎確率で攻撃を受けた敵を感電状態にする、2ターン継続。\n感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力44%分の雷属性持続ダメージを受ける。",
+                    "icon": "icon/skill/1103_skill.png"
+                },
+                {
+                    "id": "110303",
+                    "name": "機械ブーム登場！",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "Ultra",
+                    "type_text": "必殺技",
+                    "effect": "AoEAttack",
+                    "effect_text": "全体攻撃",
+                    "simple_desc": "敵全体に雷属性ダメージを与え、敵の感電状態を延長。",
+                    "desc": "敵全体にセーバルの攻撃力115%分の雷属性ダメージを与え、敵の感電状態+2ターン。",
+                    "icon": "icon/skill/1103_ultimate.png"
+                },
+                {
+                    "id": "110304",
+                    "name": "情熱コード",
+                    "level": 2,
+                    "max_level": 15,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "Talent",
+                    "type_text": "天賦",
+                    "effect": "Enhance",
+                    "effect_text": "強化",
+                    "simple_desc": "攻撃後、感電状態にあるすべての敵に少量の付加ダメージを与える。",
+                    "desc": "攻撃を行った後、すべての感電状態の敵にセーバルの攻撃力39%分の雷属性付加ダメージを与える。",
+                    "icon": "icon/skill/1103_talent.png"
+                },
+                {
+                    "id": "110306",
+                    "name": "110306",
+                    "level": 0,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "MazeNormal",
+                    "type_text": "",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "",
+                    "desc": "",
+                    "icon": "icon/skill/1103_basic_atk.png"
+                },
+                {
+                    "id": "110307",
+                    "name": "おやすみ、ベロブルグ",
+                    "level": 1,
+                    "max_level": 1,
+                    "element": {
+                        "id": "Thunder",
+                        "name": "雷",
+                        "color": "#8872F1",
+                        "icon": "icon/element/Lightning.png"
+                    },
+                    "type": "Maze",
+                    "type_text": "秘技",
+                    "effect": "MazeAttack",
+                    "effect_text": "",
+                    "simple_desc": "敵を攻撃。戦闘に入った後、ランダムな敵単体に少量のダメージを与え、高確率で敵それぞれに感電状態を付与する。",
+                    "desc": "敵を攻撃。戦闘に入った後、ランダムな敵単体にセーバルの攻撃力50%分の雷属性ダメージを与え、100%の基礎確率で敵単体それぞれに感電状態を付与する、3ターン継続。\n感電状態の敵はターンが回ってくるたびに、セーバルの攻撃力50%分の雷属性持続ダメージを受ける。",
+                    "icon": "icon/skill/1103_technique.png"
+                }
+            ],
+            "skill_trees": [
+                {
+                    "id": "1103001",
+                    "level": 1,
+                    "icon": "icon/skill/1103_basic_atk.png"
+                },
+                {
+                    "id": "1103002",
+                    "level": 2,
+                    "icon": "icon/skill/1103_skill.png"
+                },
+                {
+                    "id": "1103003",
+                    "level": 2,
+                    "icon": "icon/skill/1103_ultimate.png"
+                },
+                {
+                    "id": "1103004",
+                    "level": 2,
+                    "icon": "icon/skill/1103_talent.png"
+                },
+                {
+                    "id": "1103007",
+                    "level": 1,
+                    "icon": "icon/skill/1103_technique.png"
+                },
+                {
+                    "id": "1103201",
+                    "level": 1,
+                    "icon": "icon/property/IconCriticalChance.png"
+                }
+            ],
+            "light_cone": {
+                "id": "21027",
+                "name": "朝食の儀式感",
+                "rarity": 4,
+                "rank": 1,
+                "level": 29,
+                "promotion": 1,
+                "icon": "icon/light_cone/21027.png",
+                "preview": "image/light_cone_preview/21027.png",
+                "portrait": "image/light_cone_portrait/21027.png",
+                "path": {
+                    "id": "Mage",
+                    "name": "知恵",
+                    "icon": "icon/path/Erudition.png"
+                },
+                "attributes": [
+                    {
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 245.76,
+                        "display": "245",
+                        "percent": false
+                    },
+                    {
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 138.24,
+                        "display": "138",
+                        "percent": false
+                    },
+                    {
+                        "field": "def",
+                        "name": "防御力",
+                        "icon": "icon/property/IconDefence.png",
+                        "value": 115.20000000000002,
+                        "display": "115",
+                        "percent": false
+                    }
+                ],
+                "properties": [
+                    {
+                        "type": "AllDamageTypeAddedRatio",
+                        "field": "all_dmg",
+                        "name": "ダメージアップ",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 0.12,
+                        "display": "12.0%",
+                        "percent": true
+                    }
+                ]
+            },
+            "relics": [
+                {
+                    "id": "31021",
+                    "name": "ガンマンの草の穂フェルト帽",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_0.png",
+                    "main_affix": {
+                        "type": "HPDelta",
+                        "field": "hp",
+                        "name": "HP",
+                        "icon": "icon/property/IconMaxHP.png",
+                        "value": 45.158399999840185,
+                        "display": "45",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31112",
+                    "name": "怪盗の紋様手袋",
+                    "set_id": "111",
+                    "set_name": "流星の跡を追う怪盗",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/111_1.png",
+                    "main_affix": {
+                        "type": "AttackDelta",
+                        "field": "atk",
+                        "name": "攻撃力",
+                        "icon": "icon/property/IconAttack.png",
+                        "value": 22.579200000036508,
+                        "display": "22",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31023",
+                    "name": "ガンマンの風狩りポンチョ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_2.png",
+                    "main_affix": {
+                        "type": "CriticalDamageBase",
+                        "field": "crit_dmg",
+                        "name": "会心ダメージ",
+                        "icon": "icon/property/IconCriticalDamage.png",
+                        "value": 0.041472000768408,
+                        "display": "4.1%",
+                        "percent": true
+                    },
+                    "sub_affix": []
+                },
+                {
+                    "id": "31024",
+                    "name": "ガンマンのリベットブーツ",
+                    "set_id": "102",
+                    "set_name": "草の穂ガンマン",
+                    "rarity": 2,
+                    "level": 0,
+                    "icon": "icon/relic/102_3.png",
+                    "main_affix": {
+                        "type": "SpeedDelta",
+                        "field": "spd",
+                        "name": "速度",
+                        "icon": "icon/property/IconSpeed.png",
+                        "value": 1.61280000093393,
+                        "display": "1",
+                        "percent": false
+                    },
+                    "sub_affix": []
+                }
+            ],
+            "relic_sets": [
+                {
+                    "id": "102",
+                    "name": "草の穂ガンマン",
+                    "icon": "icon/relic/102.png",
+                    "num": 2,
+                    "desc": "攻撃力+12%。",
+                    "properties": [
+                        {
+                            "type": "AttackAddedRatio",
+                            "field": "atk",
+                            "name": "攻撃力",
+                            "icon": "icon/property/IconAttack.png",
+                            "value": 0.12,
+                            "display": "12.0%",
+                            "percent": true
+                        }
+                    ]
+                }
+            ],
+            "attributes": [
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 601.44,
+                    "display": "601",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 391.32000000000005,
+                    "display": "391",
+                    "percent": false
+                },
+                {
+                    "field": "def",
+                    "name": "防御力",
+                    "icon": "icon/property/IconDefence.png",
+                    "value": 260.55,
+                    "display": "260",
+                    "percent": false
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 104.0,
+                    "display": "104",
+                    "percent": false
+                },
+                {
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.05,
+                    "display": "5.0%",
+                    "percent": true
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.5,
+                    "display": "50.0%",
+                    "percent": true
+                }
+            ],
+            "additions": [
+                {
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.027,
+                    "display": "2.7%",
+                    "percent": true
+                },
+                {
+                    "field": "all_dmg",
+                    "name": "ダメージアップ",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.12,
+                    "display": "12.0%",
+                    "percent": true
+                },
+                {
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 45.158399999840185,
+                    "display": "45",
+                    "percent": false
+                },
+                {
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 69.53760000003652,
+                    "display": "69",
+                    "percent": false
+                },
+                {
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.041472000768408,
+                    "display": "4.1%",
+                    "percent": true
+                },
+                {
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 1.61280000093393,
+                    "display": "1",
+                    "percent": false
+                }
+            ],
+            "properties": [
+                {
+                    "type": "CriticalChanceBase",
+                    "field": "crit_rate",
+                    "name": "会心率",
+                    "icon": "icon/property/IconCriticalChance.png",
+                    "value": 0.027,
+                    "display": "2.7%",
+                    "percent": true
+                },
+                {
+                    "type": "AllDamageTypeAddedRatio",
+                    "field": "all_dmg",
+                    "name": "ダメージアップ",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.12,
+                    "display": "12.0%",
+                    "percent": true
+                },
+                {
+                    "type": "HPDelta",
+                    "field": "hp",
+                    "name": "HP",
+                    "icon": "icon/property/IconMaxHP.png",
+                    "value": 45.158399999840185,
+                    "display": "45",
+                    "percent": false
+                },
+                {
+                    "type": "AttackDelta",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 22.579200000036508,
+                    "display": "22",
+                    "percent": false
+                },
+                {
+                    "type": "CriticalDamageBase",
+                    "field": "crit_dmg",
+                    "name": "会心ダメージ",
+                    "icon": "icon/property/IconCriticalDamage.png",
+                    "value": 0.041472000768408,
+                    "display": "4.1%",
+                    "percent": true
+                },
+                {
+                    "type": "SpeedDelta",
+                    "field": "spd",
+                    "name": "速度",
+                    "icon": "icon/property/IconSpeed.png",
+                    "value": 1.61280000093393,
+                    "display": "1",
+                    "percent": false
+                },
+                {
+                    "type": "AttackAddedRatio",
+                    "field": "atk",
+                    "name": "攻撃力",
+                    "icon": "icon/property/IconAttack.png",
+                    "value": 0.12,
+                    "display": "12.0%",
+                    "percent": true
+                }
+            ]
+        }
+    ]
+}
